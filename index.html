@@ -110,38 +110,69 @@ h5 {
   <hr>
   
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
+  <div class="w3-container w3-padding-64 w3-xlarge" id="menu">
+    <div class="w3-content">
       <h1 class="w3-center">Our Menu</h1><br>
-      <h4 class="w3-center">Appetizers</h4>
-        <h2>Summer Rolls (2)</h2>
-          <ul class = "empty">
-            <li>110. Vegetarian   <b>4.5</b></li>
-            <li>111. Tofu   4.5</li>
-            <li>112. Poached Chicken   4.5</li>
-            <li>113. Poached Shrimp   4.5</li>
-            <li>114. Grilled Chicken 5</li>
-            <li>115. Grilled BBQ Pork 5</li>
-            <li>116. Ground Pork Roll 5</li>
-            <li>117. Grilled Beef 5.5</li>
-            <li>118. Grilled Shrimp 5.5</li>
-          </ul>
-        <h2>Spring Rolls (2)</h2>
-          <ul class = "empty">
-            <li>120. Vegetarian   4.5</li>
-            <li>121. Regular   4.5</li>
-          </ul>
-          <h2>131. Fried Cheese Wontons (6)   5.75</h2>
-          <h2>141. Fried or Steamed Dumplings (6)   6.25</h2>
-          <h2>151. Ground Lettuce Wrap   8.25</h2>
-          <h2>161. Eye Round Ceviche   13.95</h2>
-          <h2>Fried Batter</h2>
-          <ul class = "empty">
-            <li>171. Squid   11.95</li>
-            <li>172. Shrimp   14.95</li>
-            <li>173. Special: <i>served with shrimp, squid and fish balls.</i>   16.95</li>
-            <li>174. House Special: <i>served with BBQ pork, ground shrimp on sugar cane, and ground beef wrapped in grape leaf.</i>   23.95</li>
-          </ul>
+      <div class="w3-row w3-center">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Appetizer');" id="Appetizer">
+          <div class="w3-col s4 tablink w3-padding w3-hover-white">Appetizer</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Salad');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Salad</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'N Soup');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Noodle Soup</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Rice & Bun');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Rice & Rice Vermicelli (Bun) Platter</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Stir Fry');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Stir Fry Entree</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Fried Rice');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Fried Rice</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Thai Fried Rice');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Thai Fried Rice</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Banh Hoi');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Fine Pressed Rice Vermicelli</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Stir Fry Noodles');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-white">Stir Fry Noodles</div>
+        </a>
+      </div>
+
+      <div id="Appetizer" class= "w3-container menu w3-padding-32"></div>
+        <h4 class="w3-center">Appetizers</h4>
+          <h2>Summer Rolls (2)</h2>
+            <ul class = "empty">
+              <li>110. Vegetarian   <b>4.5</b></li>
+              <li>111. Tofu   4.5</li>
+              <li>112. Poached Chicken   4.5</li>
+              <li>113. Poached Shrimp   4.5</li>
+              <li>114. Grilled Chicken 5</li>
+              <li>115. Grilled BBQ Pork 5</li>
+              <li>116. Ground Pork Roll 5</li>
+              <li>117. Grilled Beef 5.5</li>
+              <li>118. Grilled Shrimp 5.5</li>
+            </ul>
+          <h2>Spring Rolls (2)</h2>
+            <ul class = "empty">
+              <li>120. Vegetarian   4.5</li>
+              <li>121. Regular   4.5</li>
+            </ul>
+            <h2>131. Fried Cheese Wontons (6)   5.75</h2>
+            <h2>141. Fried or Steamed Dumplings (6)   6.25</h2>
+            <h2>151. Ground Lettuce Wrap   8.25</h2>
+            <h2>161. Eye Round Ceviche   13.95</h2>
+            <h2>Fried Batter</h2>
+            <ul class = "empty">
+              <li>171. Squid   11.95</li>
+              <li>172. Shrimp   14.95</li>
+              <li>173. Special: <i>served with shrimp, squid and fish balls.</i>   16.95</li>
+              <li>174. House Special: <i>served with BBQ pork, ground shrimp on sugar cane, and ground beef wrapped in grape leaf.</i>   23.95</li>
+            </ul>
     </div>
     
     <div class="w3-col l6 w3-padding-large">
@@ -167,4 +198,3 @@ h5 {
 
 </body>
 </html>
-
