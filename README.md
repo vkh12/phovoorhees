@@ -18,8 +18,8 @@ You can view my progress [here][1].
 
 <br> 
 <i>Updated on 12/31/2021</i>
--[] improve SEO 
--[X] add favicon
 
+- [] improve SEO 
+- [X] add favicon
 
 [1]: https://vkh12.github.io/phovoorhees/
