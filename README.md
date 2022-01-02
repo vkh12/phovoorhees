@@ -1,6 +1,6 @@
 # Pho Voorhees Restaurant Website
 
-<b> TLDR: <b>
+<b> TLDR: </b>
 
 A sucessful restaurant website should have:
  * a Filtered Menu
