@@ -1,6 +1,7 @@
 # Pho Voorhees Restaurant Website
 
 TLDR:
+
 A sucessful restaurant website should have:
  * a Filtered Menu
  * an Online-Ordering System that is connected to the POS
