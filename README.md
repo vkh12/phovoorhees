@@ -18,6 +18,7 @@ You can view my progress [here][1].
 
 <br> 
 <i>Updated on 12/31/2021</i>
+
 * added meta descriptions for better SEO
 
 [1]: https://vkh12.github.io/phovoorhees/
