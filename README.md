@@ -16,6 +16,7 @@ While developing this website, I referenced many restaurant websites and learned
 
 You can view my progress [here][1].
 
-Updated on 12/31/2021
+<br> 
+<i>Updated on 12/31/2021</i>
 
 [1]: https://vkh12.github.io/phovoorhees/
