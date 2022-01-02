@@ -18,7 +18,7 @@ You can view my progress [here][1].
 
 [1]: https://vkh12.github.io/phovoorhees/
 
-
+<br>
 <b> To Do List: </b>
 - [ ] improve SEO 
 - [ ] add favicon
