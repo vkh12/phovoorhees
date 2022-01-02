@@ -18,7 +18,7 @@ You can view my progress [here][1].
 
 <br> 
 
-To Do List:
+<b> To Do List: </b>
 - [ ] improve SEO 
 - [ ] add favicon
 
