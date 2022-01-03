@@ -16,7 +16,7 @@ While developing this website, I referenced many restaurant websites and learned
 
 You can view my progress [here][1].
 
-[1]: https://vkh12.github.io/phovoorhees/
+[1]: http://phovoorhees.com
 
 <br>
 <b> To Do List: </b>
