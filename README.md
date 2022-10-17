@@ -26,4 +26,4 @@ You can view my progress [here][1].
 - [ ] add favicon
 
 <br> 
-<i>Updated on 12/31/2021</i>
+<i>Updated on 10/17/2022</i>
