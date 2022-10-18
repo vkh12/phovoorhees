@@ -4,7 +4,10 @@
 
 A sucessful restaurant website should have:
  * a Filtered Menu
- * an Online-Ordering System that is connected to the POS
+ * a Gallery of High-Def Photos of Menu Items / Products
+ * Store Phone Number embedded
+ * an Online-Ordering System embedded
+ * a Delivery Service embedded
  * use fonts that are trasferrable to different languages when translated
  
 <br> 
@@ -26,4 +29,4 @@ You can view my progress [here][1].
 - [ ] add favicon
 
 <br> 
-<i>Updated on 10/17/2022</i>
+<i>Updated on 10/18/2022</i>
