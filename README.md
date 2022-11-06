@@ -31,7 +31,7 @@ A sucessful restaurant website should have:
 
 <p align = "center"> 
  <b>Menu</b> <br> <br>
- <img height="auto" src="MenuFilter.gif">
+ <img width="800" height="auto" src="MenuFilter.gif">
  </p>
 <br> 
 
