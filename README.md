@@ -11,7 +11,8 @@ A sucessful restaurant website should have:
  * use fonts that are trasferrable to different languages when translated
  
 <br>
-<img src="LandingPage1.png">
+<b>Landing Page Slide 1</b>
+<img width="200" height="auto" src="LandingPage1.png">
 <br> <br>
 I have worked at my aunt's Vietnamese restaurant ever since it opened in 2017 but now that I am in college, I only work there during my winter and summer breaks. 
 <br> <br>
