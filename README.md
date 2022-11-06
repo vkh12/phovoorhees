@@ -15,6 +15,7 @@ A sucessful restaurant website should have:
  
 [1]: http://phovoorhees.com/
  
+ 
 <br>
 <p align = "center"> 
  <b>Landing Page Slide 1</b> <br> <br>
@@ -27,6 +28,19 @@ A sucessful restaurant website should have:
  <img width="800" height="auto" src="LandingPage2.png">
  </p>
 <br> 
+
+<p align = "center"> 
+ <b>Menu</b> <br> <br>
+ <img width="800" height="auto" src="MenuFilter.gif">
+ </p>
+<br> 
+
+<p align = "center"> 
+ <b>Gallery</b> <br> <br>
+ <img width="800" height="auto" src="LandingPage2.png">
+ </p>
+<br> 
+
 
 <br>
 I have worked at my aunt's Vietnamese restaurant ever since it opened in 2017 but now that I am in college, I only work there during my winter and summer breaks. 
