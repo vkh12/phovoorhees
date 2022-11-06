@@ -37,7 +37,7 @@ A sucessful restaurant website should have:
 
 <p align = "center"> 
  <b>Gallery</b> <br> <br>
- <img width="800" height="auto" src="LandingPage2.png">
+ <img width="800" height="auto" src="Gallery.gif">
  </p>
 <br> 
 
