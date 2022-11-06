@@ -13,13 +13,13 @@ A sucessful restaurant website should have:
 <br>
 <p align = "center"> 
  <b>Landing Page Slide 1</b> <br> <br>
- <img width="500" height="auto" src="LandingPage1.png">
+ <img width="800" height="auto" src="LandingPage1.png">
  </p>
 <br> 
 
 <p align = "center"> 
  <b>Landing Page Slide 2</b> <br> <br>
- <img width="500" height="auto" src="LandingPage2.png">
+ <img width="800" height="auto" src="LandingPage2.png">
  </p>
 <br> 
 
