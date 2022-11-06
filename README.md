@@ -3,7 +3,7 @@
 <b> TLDR: </b>
 
 A sucessful restaurant website should have:
- * a Filtered Menu
+ * a Filtered Menu (filtering Vegetarian, Vegan, and Glutten-Free options)
  * a Gallery of High-Def Photos of Menu Items / Products
  * Store Phone Number embedded
  * an Online-Ordering System embedded
