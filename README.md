@@ -12,8 +12,8 @@ A sucessful restaurant website should have:
  
 <br>
 <p align = "center">
-<b>Landing Page Slide 1</b>
-<img width="500" height="auto" src="LandingPage1.png">
+ <b>Landing Page Slide 1</b>
+ <img width="500" height="auto" src="LandingPage1.png">
  </p>
 <br> 
 
