@@ -11,8 +11,8 @@ A sucessful restaurant website should have:
  * use fonts that are trasferrable to different languages when translated
  
 <br>
-<p align = "center">
- <b>Landing Page Slide 1</b>
+<p align = "center"> 
+ <b>Landing Page Slide 1</b> <br>
  <img width="500" height="auto" src="LandingPage1.png">
  </p>
 <br> 
