@@ -16,6 +16,9 @@ A sucessful restaurant website should have:
 [1]: http://phovoorhees.com/
  
  
+https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-993b-f769c7dd4dea.mp4
+
+
 <br>
 <p align = "center"> 
  <b>Landing Page Slide 1</b> <br> <br>
@@ -61,4 +64,4 @@ You can view my progress [here][1].
 - [ ] add favicon
 
 <br> 
-<i>Updated on 11/5/2022</i>
+<i>Updated on 1/10/2023</i>
