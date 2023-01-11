@@ -11,7 +11,7 @@ A sucessful restaurant website should have:
  * use fonts that are trasferrable to different languages when translated
  <br>
  
-You can view my progress [here][1] (phovoorhees.com)
+You can view my progress [here][1] (phovoorhees.com).
 
 [1]: http://phovoorhees.com/ 
  
