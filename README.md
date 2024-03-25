@@ -20,32 +20,6 @@ https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-
 
 
 <br>
-<p align = "center"> 
- <b>Landing Page Slide 1</b> <br> <br>
- <img width="800" height="auto" src="LandingPage1.png">
- </p>
-<br> 
-
-<p align = "center"> 
- <b>Landing Page Slide 2</b> <br> <br>
- <img width="800" height="auto" src="LandingPage2.png">
- </p>
-<br> 
-
-<p align = "center"> 
- <b>Menu</b> <br> <br>
- <img width="800" height="auto" src="MenuFilter.gif">
- </p>
-<br> 
-
-<p align = "center"> 
- <b>Gallery</b> <br> <br>
- <img width="800" height="auto" src="Gallery.gif">
- </p>
-<br> 
-
-
-<br>
 I have worked at my aunt's Vietnamese restaurant ever since it opened in 2017 but now that I am in college, I only work there during my winter and summer breaks. 
 <br> <br>
 On one of my breaks from school, I noticed that many immigrant business owners, like my aunt, stuck with traditional ways of advertising themselves. Although paper and word-of-mouth methods work, I believed creating an online website would generate more sales and provide a more concise business image for the restaurant.
