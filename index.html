@@ -4,17 +4,27 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>Phở Voorhees</title>
+  <meta content="Pho Voorhees, located in Ritz Plaza in Voorhees Township, NJ" name="description">
+  <meta content="Vietnamese Restaurant Pho Website" name="keywords">
 
-  <title>Victoria Hong</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#446f80">
+  <meta name="msapplication-TileColor" content="#446f80">
+  <meta name="theme-color" content="#446f80">
 
   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  
   <!-- Vendor CSS Files -->
-  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -22,193 +32,695 @@
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-  
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start" style="padding: 20px;">
+      <i class="bi bi-phone d-flex align-items-center"><span>(856) 344-7804</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span> Sunday-Monday & Wednesday-Saturday 11am - 8pm</span></i>
+    </div>
+  </section>
 
-      <div class="logo">
-        <h1><a href="index.html">Victoria Hong</a></h1>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html" style="font-family: 'Be Vietnam Pro', sans-serif;
+          letter-spacing: 0px; padding-top: 10px; color: #e0ca66; font-size: 20px;">Phở Voorhees</a></h1>
       </div>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html">Portfolio</a></li>
-          <li><a class="nav-link scrollto " href="aboutme.html">About</a></li>
-          <li><a class="nav-link scrollto " href="#footer">Contact</a></li>
-          <li><a class="nav-link scrollto" href="Victoria Hong's Resume.pdf">Resume</a></li> 
-          <li><a class="nav-link scrollto" href="Victoria Hong's CV.pdf">CV</a></li> 
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>I am Kieu.</h1>
-      <h2>Product Designer dedicated to creating experiences that empower people and solve real-world problems.</h2>
-      <a href="aboutme.html" class="btn-get-started scrollto">Learn More</a>
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="8000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(img/slide/slide-1.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class="carousel-container">
+              <div class="carousel-content" >
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Phở Voorhees</span></h2>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">View Menu</a>
+                  <a href="https://www.doordash.com/store/pho-voorhees-voorhees-township-1082310/?pickup=false" class="btn-menu animate__animated animate__fadeInUp scrollto">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 
+          <div class="carousel-item" style="background: url(img/slide/slide-2.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Announcement</h2>
+                <p class="animate__animated animate__fadeInUp">We will be closed on New Years Day and will reopen January 2nd.</p>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(img/slide/slide-3.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Reservations & Questions</h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Please call to secure a table. <br>
+                  For any concern or questions, please reach out. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="background-color: rgb(70, 81, 97);">
+      <div class="container-fluid">
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+        <div class="row">
 
-        <div class="section-title" data-aos="fade-up">
-          <p style="text-transform: uppercase; padding-top: 30px; font-weight: 600; letter-spacing: 5%; font-size: 18px; color: #656565;">Featured Work</p>
-        </div>
-<!-- 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+          <div class=" d-flex flex-column  align-items-center">
+
+            <div class="content" style="padding:20px;">
+              <p style="color: white;">
+                Located in the Ritz Plaza in Voorhees Township, NJ, Phở Voorhees is dedicated to 
+                serving its customers homemade Vietnamese dishes. <br><br> 
+                We believe everyone should have the opportunity to try our food thereby, 
+                we accomodate to the following: 
+              </p>
+            
+              <ul style="color: white; font-size: 13px;">
+                <li><i class="bi bi-circle-fill" ></i> Vegan, Vegetarian, and Glutten-free diets</li>
+                <li><i class="bi bi-circle-fill"></i> Children and Large Groups</li>
+                <li><i class="bi bi-circle-fill"></i> Disabled and Wheelchair-bound individuals</li>
+              </ul>
+
+              <p style="color: white;">
+                For any questions or concerns, do not hesistate to call. 
+              </p>
+            
+            </div>
+
           </div>
-        </div>
- -->
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="https://github.com/vkh12/KayanFinance" title="Kayan Finance Website">
-                <img src="img/portfolio/KayanFinance.png" style="border-radius: 15px;" class="img-fluid" alt="Kayan Finance">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="https://github.com/vkh12/KayanFinance" title="Pho Voorhees Website"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">Kayan Finance Website</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Designed and developed Kayan Finance's website, a fin-tech company</h3>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/MOiACWDrbrQ" title="WheeliCare App">
-                <img src="img/portfolio/WheeliCare.png" style="border-radius: 15px;" class="img-fluid" alt="WheeliCare App">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="https://youtu.be/MOiACWDrbrQ" 
-              title="WheeliCare App"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">WheeliCare App</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Devised an insurance-covered, personalized ride-sharing app</h3>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="virtualvendors-details.html" title="Virtual Vendors App Proposal">
-                <img src="img/portfolio/VirtualVendors.png" style="border-radius: 15px;" class="img-fluid" alt="Virtual Vendors">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="virtualvendors-details.html" title="Virtual Vendors Proposal"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">Virtual Vendors App</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Created a tool to locate, purchase, and support street vendors</h3>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="afterschool-details.html" title="AfterSchool App Proposal">
-                <img src="img/portfolio/AfterSchool.png" style="border-radius: 15px;" class="img-fluid" alt="After-School App">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="afterschool-details.html" title="AfterSchool Case Study"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">AfterSchool App</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Conceptualized and designed a mobile solution for students to seek opportunities, 
-                manage responsibilities, and promote engagement and better communication </h3>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="zumper-details.html" title="Zumper Case Study">
-                <img src="img/portfolio/Zumper.png" style="border-radius: 15px;" class="img-fluid" alt="Zumper Redesign">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="zumper-details.html" title="More Details"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">Zumper Redesign</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Integrated a more socialable and collaborative approach to finding a home with roommates</h3>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="padding: 20px;">
-            <div class="portfolio-links">
-              <a href="http://phovoorhees.com" title="Pho Voorhees Website">
-                <img src="img/portfolio/PhoVoorhees.png" style="border-radius: 15px;" class="img-fluid" alt="Pho Voorhees Website">
-              </a>
-            </div>
-            <div class="portfolio-info">
-              <a href="http://phovoorhees.com" title="Pho Voorhees Website"><h4 style="padding-top: 30px; font-weight: 500; font-size: 24px;">Pho Voorhees Website</h4></a>
-              <h3 style="line-height: 24px; font-weight: 400; font-size: 18px;">Developed and designed a Vietnamese restaurant website to market menu items and promote new specials</h3>
-            </div>
-          </div>
-
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End About Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Menu</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-bestseller">Best Seller</li>
+              <li data-filter=".filter-appetizer">Appetizer</li>
+              <li data-filter=".filter-entree">Entrée</li>
+              <li data-filter=".filter-beverage">Beverage</li>
+              <br>
+              <li data-filter=".filter-vegan">Vegan</li>
+              <li data-filter=".filter-vegetarian">Vegetarian</li>
+              <li data-filter=".filter-gluttenfree">Glutten-free</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+          
+          <!-- ======= Appetizer ======= -->
+          <div class="col-lg-6 menu-item filter-appetizer filter-vegan filter-bestseller filter-vegetarian">
+            <div class="menu-content">
+              <a href="#">2 Summer Rolls (Gỏi Cuốn)</a><span>$6.5</span>
+            </div>
+            <div class="menu-ingredients">
+              Vegetarian, Tofu, Poached Chicken (+$0.45), Poached Shrimp (+$0.45), 
+              Grilled Chicken (+$0.45), Grilled BBQ Pork (+$0.45), Grilled Pork Roll (+$1.45),
+              Grilled Beef (+$1.45), or Grilled Shrimp (+$1.45)</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bestseller filter-appetizer">
+            <div class="menu-content">
+              <a href="#">6 Fish Sauce Chicken Wings (Cánh Gà Chiên)</a><span>$10.5</span>
+            </div>
+            <div class="menu-ingredients">
+              Deep-fried chicken wings satueed in signature fish sauce</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">2 Spring Rolls (Chả Giò)</a><span>$6.5</span>
+            </div>
+            <div class="menu-ingredients">
+              Ground pork, taro, carrot, mushroom, glass noodle, and onion</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-appetizer filter-bestseller filter-vegetarian">
+            <div class="menu-content">
+              <a href="#">6 Fried Cheese Wontons</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Deep-fried wonton wrapper with cream cheese, carrot, and scallion filling</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">6 Fried or Steamed Filled Dumplings</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Contains pork, onion, napa, bok choy, and sesame oil</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bestseller filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Ground Chicken Lettuce Wrap</a><span>$11.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Stir-fried ground chicken served with iceberg lettuce, onions, fried 
+            shallots, and peanuts with a side of fish sauce</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bestseller filter-gluttenfree filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Eye Round Ceviche (Bò Tái Chanh)</a><span>$18.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Quick poached, thin sliced rare eye round tossed in citrus with onions and 
+            Thai basil</div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bestseller filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Fried Batter (Rang Muối)</a><span>$16.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Stir-fried with bell peppers, onions, and jalapeños, served on a bed of lettuce, tomatoes, and 
+              cucumbers with a side of white rice and choice of filling:<br> 
+              Squid, Shrimp (+$1), or Special - Squid, Shrimp, and Fish Balls (+$4)</div>
+          </div>
+
+
+          <!-- ======= Salad ======= -->
+          <div class="col-lg-6 menu-item filter-vegan filter-entree filter-vegetarian filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Salad (Goi)</a><span>$10.95</span>
+            </div>
+            <div class="menu-ingredients">
+            Consists of iceberg lettuce, tomato, cucumber, and carrots and served with balsamic vinaigrette and choice of filling:<br>
+            Fried Tofu, Grilled Chicken (+$3), Grilled Pork (+$3), Grilled Shrimp (+$4), Grilled Beef (+$5),
+            or Special - Grilled Chicken, Beef, and Pork (+$8)</div>
+          </div>
+
+
+          <!-- ======= Soup ======= -->
+          <div class="col-lg-6 menu-item filter-entree filter-vegetarian filter-vegan filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Create Your Own Noodle Soup</a><span>$14.95</span>
+            </div>
+            <div class="menu-ingredients">
+                <b>Choice of Noodle</b>: Rice (Glutten-Free) or Egg noodle <br>
+                <b>Choice of Broth</b>: Vegatable, Chicken, or Beef <br>
+                <b>Choice of 3 Toppings</b>: Veg, Tofu, Poached Chicken Breast, Meatball, Brisket, Flank, 
+                Eyeround, Tripe, Tendon, or Fish Ball <br>
+                <b> Upgrade to Extra Large for an additional charge of $5. </b>
+              </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree filter-vegetarian filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Plain Noodle Soup</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Contains noodles and your choice of soup. <br>
+              <b>Choice of Noodle</b>: Rice (Glutten-Free) or Egg noodle <br>
+              <b>Choice of Broth</b>: Vegatable, Chicken, or Beef <br>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree">
+            <div class="menu-content">
+              <a href="#">Wonton Soup</a><span>$10.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Pork & shrimp wonton and bok choy in chicken broth
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree ">
+            <div class="menu-content">
+              <a href="#">Egg Noodle Wonton Soup</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Pork & shrimp wonton, bok choy, and egg noodle in chicken broth
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree filter-bestseller">
+            <div class="menu-content">
+              <a href="#">Phở Grilled Pork, Pork Chop, or Chicken</a><span>$14.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled protein is served on the side 
+            </div>
+          </div>
+      
+          <div class="col-lg-6 menu-item filter-entree">
+            <div class="menu-content">
+              <a href="#">Phở Grilled Shrimp</a><span>$15.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled shrimp is served on the side. 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree  filter-bestseller filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">House Special Phở (Phở Đặc Biệt)</a><span>$16.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Served with eye round steak, flank, brisket, meatball, soft tendon, and tripe
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree filter-bestseller filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Phở Seafood (Phở Đồ Biển)</a><span>$16.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Served with Fish Ball, Squid, and Shrimp
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree filter-gluttenfree" >
+            <div class="menu-content">
+              <a href="#">Phở Poached Shrimp & Bok Choy</a><span>$14.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Phở Chopped Filet Mignon</a><span>$18.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree  filter-bestseller">
+            <div class="menu-content">
+              <a href="#">Beef Stew (Bò Kho)</a><span>$15.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Served with beef chunks, carrots, and your choice of rice noodles or egg noodles in our signature beef stew
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item  filter-entree filter-bestseller filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Spicy Beef Soup (Bún Bò Huế)</a><span>$15.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Spicy beef soup with brisket, pork pate (Chả Lụa), and beef tendon
+            </div>
+          </div>
+
+
+          <!-- ======= Com/Bun Platters ======= --> 
+    
+
+          <div class="col-lg-6 menu-item filter-specialty filter-bestseller filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">House Special Rice or Bun (Cơm or Bún) Platter</a><span>$17.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>*Contains peanuts</b><br> 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Create Your Own Rice (Cơm) Platter</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>*Contains peanuts</b><br> 
+              Served with a side salad of lettuce, tomato, cucumber, and pickled daikon and carrots <br>
+              <b>Choice of White Rice or Fried Rice (+$4.5)</b><br> 
+              <b>Choice of a Spring Roll or Fried Egg</b><br>
+              <b>Choice of Filling</b>: Fried Tofu, Grilled Pork Chop (+$3), Grilled Chicken (+$2), Ground Pork Roll (+$2),
+              Grilled Beef (+$3), Grilled Shrimp (+$2), or 2 Fried Ground Shrimp wrapped in Tofu Skin (+$2)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Create Your Own Rice Vermicelli (Bún) Platter</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>*Contains peanuts</b><br> 
+              Served with shredded lettuce, beansprouts, and pickled daikon and carrots <br>
+              <b>Rice Vermicelli with </b>... <br> 
+              <b>Choice of a Spring Roll or Fried Egg</b><br>
+              <b>Choice of Filling</b>: Fried Tofu, Grilled Pork Chop (+$3), Grilled Chicken (+$2), Ground Pork Roll (+$2),
+              Grilled Beef (+$3), Grilled Shrimp (+$2), or 2 Fried Ground Shrimp wrapped in Tofu Skin (+$2)
+            </div>
+          </div>
+
+          
+<!-- ======= Stir Fry Entree ======= --> 
+          <div class="col-lg-6 menu-item filter-entree filter-starters filter-vegan filter-vegetarian filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Create Your Own Stir Fry Entree</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>Choice of White Rice, Rice Vermicelli, or Fried Rice (+$4.5)</b><br> 
+              <b>Choice of Sauce</b>: Curry (with onions, carrots, and bell peppers), Ginger Scallion, Lemongrass (with sauteed onions), 
+              Garlic Sauce, Brown Sauce, or Black Bean (*contains oyster sauce) <br> 
+              <b>Choice of Filling</b>: Vegatable - bok choy, bell peppers, onion, napa, carrot, and broccoli, Tofu, Chicken (+$2), BBQ Pork (Xá Xíu) ($2),
+              Beef(+$3), Shrimp (+$2), Seafood - shrimp, fish ball, and squid (+$6), or House Special - shrimp, BBQ pork (Xá Xíu), squid, chicken, and fish cake (+$7)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters filter-entree filter-bestseller">
+            <div class="menu-content">
+              <a href="#">General Tso</a><span>$15.95</span>
+            </div>
+            <div class="menu-ingredients">
+               Batter-fried chicken breast in our signature General Tso sauce with a side of 
+               steamed broccoli and white rice
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters filter-entree filter-bestseller">
+            <div class="menu-content">
+              <a href="#">Mayonnaise Shrimp</a><span>$20.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Deep-fried shrimp tossed in our signature mayonnaise sauce topped with candied walnuts 
+              and served with a side of steamed broccoli and white rice
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters filter-entree filter-bestseller">
+            <div class="menu-content">
+              <a href="#">Diced Filet Mignon (Bò Lúc Lắc)</a><span>$22.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Sauteed diced filet mignon, onion, and bell peppers in our signature brown sauce 
+              on a sizzling plate and served with a side of white rice
+            </div>
+          </div>
+
+
+          <!-- ======= Fried Rice & Thai Fried Rice ======= --> 
+          <div class="col-lg-6 menu-item filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Fried Rice</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Consists of egg, carrots, peas, onions, and choice of filling: <br>
+              Vegetarian - Contains bok choy, napa cabbage and eggs, Tofu, Chicken Breast (+$2), 
+              BBQ Pork (Xá Xíu) (+$2), Beef (+$3), Shrimp (+$2), Special - contains shrimp, chicken, and BBQ Pork (+$6),
+              or Seafood - contains Shrimp, Squid, and Fish Ball (+$6)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-entree">
+            <div class="menu-content">
+              <a href="#">Thai Fried Rice</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Consists of egg, onions, eggplants, pineapples, bell peppers, Thai basil, and choice of filling: <br>
+              Vegetarian - Contains bell peppers and napa cabbage, Tofu, Chicken Breast (+$2), 
+              BBQ Pork (Xá Xíu) (+$2), Beef (+$4), Shrimp (+$3), Special - contains shrimp, chicken, and BBQ Pork (Xá Xíu) (+$6),
+              or Seafood - contains Shrimp, Squid, and Fish Ball (+$6)
+            </div>
+          </div>
+
+
+          <!-- ======= Stir Fry Noodles ======= --> 
+          <div class="col-lg-6 menu-item filter-entree filter-gluttenfree filter-vegan filter-vegetarian">
+            <div class="menu-content">
+              <a href="#">Stir Fry Noodles</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Choice of Wide Rice Noodle (Hu Tieu) or Lo Mein and choice of filling: <br>              
+              Vegatables, Tofu, Chicken Breast (+$2), BBQ Pork (Xá Xíu) (+$2), Beef (+$4), Shrimp (+$3), 
+              Special - contains shrimp, chicken, and BBQ Pork (Xá Xíu) (+$6), or Seafood - contains Shrimp, Squid, and Fish Ball (+$6)
+            </div>
+          </div>
+
+
+           <!-- ======= Bird Nest Egg Noodle (Mi Xao Gion) ======= --> 
+           <div class="col-lg-6 menu-item filter-bestseller filter-entree">
+            <div class="menu-content">
+              <a href="#">Bird Nest Egg Noodle (Mì Xào Giòn)</a><span>$15.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Crispy egg noodle topped with mushroom, napa, carrots, baby corn in white 
+              sauce with choice of filling: <br>              
+              Vegatables - contains bok choy and broccoli, Tofu, Chicken Breast (+1), BBQ Pork (Xá Xíu) (+$1), Beef (+$3), Shrimp (+$3), 
+              or Seafood - contains Shrimp, Squid, and Fish Ball (+$5)
+            </div>
+          </div>
+
+
+          <!-- ======= Pad Thai ======= --> 
+          <div class="col-lg-6 menu-item filter-entree filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Pad Thai</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>*Contains peanuts</b> <br>
+              Consists of rice noodle, egg, beansrpouts, and scallion stir-fried in our sweet tamarind sauce 
+              and garnished with carrots, onions, Thai basil, limes, and crushed peanuts with choice of filling: <br>
+              Vegatables - contains bok choy and broccoli, Tofu, Chicken Breast (+$2), BBQ Pork (Xá Xíu) (+$2), Beef (+$4), Shrimp (+$3), 
+              Seafood - contains Shrimp, Squid, and Fish Ball (+$6), or 
+              Special - contains shrimp, fish ball, squid, chicken, and BBQ Pork (Xá Xíu) (+$7)
+            </div>
+          </div>
+
+
+          <!-- ======= Padkee Mao ======= --> 
+          <div class="col-lg-6 menu-item filter-entree">
+            <div class="menu-content">
+              <a href="#">Padkee Mao</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Consists of wide rice noodle, egg, Thai basil, onions, bell peppers, carrots, baby corn, and mushroom 
+              stir-fried with our chili puree and sweet & sour soy sauce with choice of filling: <br>
+              Vegatables - contains bok choy and broccoli, Tofu, Chicken Breast (+$2), BBQ Pork (Xá Xíu) (+$2), Beef (+$3), Shrimp (+$3), 
+              Seafood - contains Shrimp, Squid, and Fish Ball (+$6), or
+              Special - contains shrimp, fish ball, squid, chicken, and BBQ Pork (Xá Xíu) (+$7)
+            </div>
+          </div>
+
+
+           <!-- ======= Singapore Noodle ======= --> 
+           <div class="col-lg-6 menu-item filter-entree filter-vegetarian filter-gluttenfree">
+            <div class="menu-content">
+              <a href="#">Singapore Noodle</a><span>$13.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Consists of rice vermicelli, egg, onions, and carrots stir-fried with curry sauce and choice of filling: <br>
+              Vegatables - contains bok choy and broccoli, Tofu, Chicken Breast (+$2), BBQ Pork (Xá Xíu) (+$2), Beef (+$3), Shrimp (+$3), 
+              Seafood - contains Shrimp, Squid, and Fish Ball (+$6), or
+              Special - contains shrimp, fish ball, squid, chicken, and BBQ Pork (Xá Xíu) (+$7)
+            </div>
+          </div>
+
+
+          <!-- ======= Beverage ======= --> 
+          <div class="col-lg-6 menu-item filter-beverage" >
+            <div class="menu-content">
+              <a href="#">Soda</a><span>$1.5</span>
+            </div>
+            <div class="menu-ingredients">
+              Coke, Diet Coke, Pepsi, Sprite, and Gingerale
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-beverage" >
+            <div class="menu-content">
+              <a href="#">Iced Espresso</a><span>$4.25</span>
+            </div>
+          </div>
+
+         <div class="col-lg-6 menu-item filter-beverage">
+            <div class="menu-content">
+              <a href="#">Hot Espresso</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              <b>*Available for dine-in only</b>
+            </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-beverage" >
+          <div class="menu-content">
+            <a href="#">Hot Espresso with Condensed Milk</a><span>$4.75</span>
+          </div>
+          <div class="menu-ingredients">
+            <b>*Available for dine-in only</b>
+          </div>
+        </div>
+
+          <div class="col-lg-6 menu-item filter-beverage" >
+            <div class="menu-content">
+              <a href="#">Iced Espresso with Condensed Milk</a><span>$4.95</span>
+            </div>
+          </div>
+
+        <div class="col-lg-6 menu-item filter-beverage">
+          <div class="menu-content">
+            <a href="#">Bubble Tea</a><span>$4.95</span>
+          </div>
+          <div class="menu-ingredients">
+            <b>Choice of Tea Base</b>: Jasmine or Black Tea <br>
+            <b>Choice of Syrup Flavor</b>: Passionfruit, Lychee, or Strawberry <br>
+            <b>Choice of Filling</b>: Tapioca Pearls (+$.5), Popping Boba (+$.5), Jellies (+$.5), or none
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-beverage">
+          <div class="menu-content">
+            <a href="#">Bubble Shake</a><span>$5.5</span>
+          </div>
+          <div class="menu-ingredients">
+            <b>*Contains milk</b><br>
+            <b>Choice of Flavor</b>: Thai Tea, Black Milk Tea, Taro, Coconut, Honeydew, or Mango <br>
+            <b>Choice of Filling</b>: Tapioca Pearls (+$.5), Popping Boba (+$.5), Jellies (+$.5), or none
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-bestseller filter-beverage">
+          <div class="menu-content">
+            <a href="#">Bubble Smoothie</a><span>$5.95</span>
+          </div>
+          <div class="menu-ingredients">
+            <b>*Contains milk</b><br>
+            <b>Choice of Flavor</b>: Taro, Coconut, Honeydew, Mango, Lychee, Strawberry, Avocado, or Jackfruit <br>
+            <b>Choice of Filling</b>: Tapioca Pearls (+$.5), Popping Boba (+$.5), Jellies (+$.5), or none
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-beverage" >
+          <div class="menu-content">
+            <a href="#">Coconut Water (Nước Dừa)</a><span>$5.95</span>
+          </div>
+        </div>
+
+        </div>
+        <br>
+        <p style="padding: 0px; text-align: center; color: rgb(75, 113, 148);"><i>*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk 
+          of foodborne illness, especially if you have certain medical conditions.*</i>
+        </p>
+
+      </div>
+
+    </section><!-- End Menu Section -->
+      
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Contact</span></h2>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=910%20Haddonfield-Berlin%20Rd,%20Voorhees%20Township,%20NJ%2008043+(Pho%20Voorhees)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container mt-5">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Address</h4>
+              <p>910 Haddonfield-Berlin Rd<br>Voorhees Township, NJ 08043</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Business Hours</h4>
+              <p>Sunday - Monday & Wednesday - Saturday:<br>11:00 AM - 8:00 PM</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Phone</h4>
+              <p>(856) 344-7804</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-12 col-md-12">
-            <div class="footer-info text-center">
-              <p style="font-size: 18px; font-weight: 500;">Stay Connected.</p>
-              <div class="social-links mt-3">
-                <a href="mailto:victoriakieuhong@gmail.com" class="google"><i class="bx bxl-google"></i></a>
-                <a href="https://www.linkedin.com/in/victoriakhong/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/vkh12" class="github"><i class="bx bxl-github"></i></a>
-                <a href="https://www.instagram.com/victoriakieuhong/" class="instagram"><i class="bx bxl-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-
-      
-
-        </div>
+    <div class="container" style="padding: 20px;">
+      <h3>Phở Voorhees</h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/phovoorhees/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com/phovoorhees?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.yelp.com/biz/pho-voorhees-voorhees" class="yelp"><i class="bx bxl-yelp"></i></a>
       </div>
-    </div>
-
-    <div class="container">
       <div class="copyright">
-        &copy; Designed & Coded by Victoria Hong.
+        &copy; Copyright <strong><span>Phở Voorhees</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="http://victoriakieuhong.com">Victoria Hong</a>
       </div>
     </div>
   </footer><!-- End Footer -->
 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
   <!-- Vendor JS Files -->
-  <script src="vendor/aos/aos.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/glightbox/js/glightbox.min.js"></script>
-<script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="vendor/swiper/swiper-bundle.min.js"></script>
-<script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
