@@ -32,6 +32,3 @@ While developing this website, I referenced many restaurant websites and learned
 
 - [ ] improve SEO 
 - [ ] add favicon
-
-<br> 
-<i>Updated on 1/10/2023</i>
