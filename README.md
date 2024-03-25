@@ -11,9 +11,9 @@ A sucessful restaurant website should have:
  * use fonts that are trasferrable to different languages when translated
  <br>
  
-You can view the website [here][1] (phovoorhees.com).
+You can view the website [here][1] (phovoorheesnj.com).
 
-[1]: http://phovoorhees.com/ 
+[1]: http://phovoorheesnj.com/ 
  
  
 https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-993b-f769c7dd4dea.mp4
@@ -26,8 +26,6 @@ On one of my breaks from school, I noticed that many immigrant business owners, 
 <br> <br>
 While developing this website, I referenced many restaurant websites and learned that many lacked a filtered menu, an online menu that sorts through the items of the menu to display not only appetizers and entrees but also vegan, vegetarian, and glutten-free options. Thus, I considered this in my process, as well as using fonts that supported the Vietnamese language. I also noticed successful restaurants had online-ordering on their website. This online-ordering system is connected to the restaurant's Point-of-Sales system, which is very beneficial for Front-of-House staff because it minimizes the number of phone calls and time to take orders. I found this method to be very helpful during rush hour because my aunt's restaurant only has one company phone to take orders off of. 
 <br> <br>
-
-You can view the website here: ([phovoorheesnj.com](http://phovoorheesnj.com)).
 
 <br>
 <b> To Do List: </b>
