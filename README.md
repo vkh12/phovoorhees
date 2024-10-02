@@ -15,9 +15,7 @@ You can view the website [here](http://phovoorheesnj.com).
 
 ## Project Overview
 
-I have been involved with my aunt's Vietnamese restaurant since its opening in 2017. While I now focus on my studies during the academic year, I return to assist during winter and summer breaks. 
-
-During one of my breaks, I observed that many immigrant business owners, like my aunt, relied heavily on traditional advertising methods. Although approaches like printed materials and word-of-mouth are effective, I recognized the potential for an online presence to drive sales and enhance the restaurant's brand image.
+I have been involved with my aunt's Vietnamese restaurant since its opening in 2017. During one of my breaks, I observed that many immigrant business owners, like my aunt, relied heavily on traditional advertising methods. Although approaches like printed materials and word-of-mouth are effective, I recognized the potential for an online presence to drive sales and enhance the restaurant's brand image.
 
 ## Development Insights
 
