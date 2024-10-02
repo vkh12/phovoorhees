@@ -1,34 +1,30 @@
 # Pho Voorhees - Vietnamese Restaurant Website
 
-<b> TLDR: </b>
+**TL;DR: A successful restaurant website should include:**
 
-A sucessful restaurant website should have:
- * a Filtered Menu (filtering Vegetarian, Vegan, and Glutten-Free options)
- * a Gallery of High-Def Photos of Menu Items / Products
- * Store Phone Number embedded
- * an Online-Ordering System embedded
- * a Delivery Service embedded
- * use fonts that are trasferrable to different languages when translated
- <br>
- 
-You can view the website [here][1] (phovoorheesnj.com).
+- **Filtered Menu:** Options for Vegetarian, Vegan, and Gluten-Free dishes
+- **Gallery:** High-definition photos of menu items/products
+- **Contact Information:** Embedded store phone number
+- **Online Ordering System:** Streamlined ordering for customers
+- **Delivery Service Integration:** Facilitated delivery options
+- **Multi-language Support:** Fonts that are translatable for different languages
 
-[1]: http://phovoorheesnj.com/ 
- 
- 
-https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-993b-f769c7dd4dea.mp4
+You can view the website [here](http://phovoorheesnj.com).
 
+![Website Preview](https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-993b-f769c7dd4dea.mp4)
 
-<br>
-I have worked at my aunt's Vietnamese restaurant ever since it opened in 2017 but now that I am in college, I only work there during my winter and summer breaks. 
-<br> <br>
-On one of my breaks from school, I noticed that many immigrant business owners, like my aunt, stuck with traditional ways of advertising themselves. Although paper and word-of-mouth methods work, I believed creating an online website would generate more sales and provide a more concise business image for the restaurant.
-<br> <br>
-While developing this website, I referenced many restaurant websites and learned that many lacked a filtered menu, an online menu that sorts through the items of the menu to display not only appetizers and entrees but also vegan, vegetarian, and glutten-free options. Thus, I considered this in my process, as well as using fonts that supported the Vietnamese language. I also noticed successful restaurants had online-ordering on their website. This online-ordering system is connected to the restaurant's Point-of-Sales system, which is very beneficial for Front-of-House staff because it minimizes the number of phone calls and time to take orders. I found this method to be very helpful during rush hour because my aunt's restaurant only has one company phone to take orders off of. 
-<br> <br>
+## Project Overview
 
-<br>
-<b> To Do List: </b>
+I have been involved with my aunt's Vietnamese restaurant since its opening in 2017. While I now focus on my studies during the academic year, I return to assist during winter and summer breaks. 
 
-- [ ] improve SEO 
-- [ ] add favicon
+During one of my breaks, I observed that many immigrant business owners, like my aunt, relied heavily on traditional advertising methods. Although approaches like printed materials and word-of-mouth are effective, I recognized the potential for an online presence to drive sales and enhance the restaurant's brand image.
+
+## Development Insights
+
+In developing this website, I analyzed various restaurant sites and identified common shortcomings, particularly the lack of a **filtered menu**. I implemented a feature that allows users to sort menu items by categories, including appetizers, entrees, and specific dietary options (vegan, vegetarian, gluten-free). 
+
+Additionally, I prioritized using fonts that support the Vietnamese language to cater to the restaurant's primary customer base. I also integrated an **online ordering system** that connects directly to the restaurant's Point-of-Sales system, significantly benefiting the Front-of-House staff. This integration reduces the volume of phone calls and expedites the order-taking process, especially during peak hours when my aunt's restaurant operates with limited resources.
+
+## Conclusion
+
+This project not only enhanced the restaurant's online visibility but also streamlined operations, making it a valuable asset for the business. 
