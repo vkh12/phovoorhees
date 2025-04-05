@@ -2,59 +2,57 @@
 
 ## Introduction
 
-**Pho Voorhees** is the online presence for a vibrant Vietnamese restaurant located in Voorhees, NJ. Established in 2017, the restaurant has embraced digital transformation to enhance customer interaction, streamline ordering processes, and broaden its market reach through a well-designed website.
+**Pho Voorhees** represents the dynamic online presence of a Vietnamese restaurant established in 2017, situated in Voorhees, NJ. The digital transformation of Pho Voorhees aims to enhance customer interaction, optimize the ordering process, and expand market reach through a strategically designed website.
 
-View the live site: [Pho Voorhees](http://phovoorheesnj.com)
+Access the live website here: [Pho Voorhees](http://phovoorheesnj.com)
 
 ![Website Preview](https://user-images.githubusercontent.com/66217119/211706263-859c1ef8-4996-41f2-993b-f769c7dd4dea.mp4)
 
 ### Key Features
 
-- **Filtered Menu:** Interactive menu with filters for vegetarian, vegan, and gluten-free options.
-- **High-Definition Gallery:** Showcases the restaurant's dishes and ambiance.
-- **Contact Information:** Easily accessible contact details and embedded Google Maps location.
-- **Online Ordering System:** Direct integration with the restaurant's POS for seamless order processing.
-- **Delivery Service Integration:** Partnerships with major delivery platforms like UberEats and DoorDash.
-- **Multi-language Support:** Ensures accessibility for Vietnamese and English-speaking customers.
+- **Filtered Menu:** Provides interactive menu filtering for dietary preferences such as vegetarian, vegan, and gluten-free.
+- **High-Definition Gallery:** Features professional photos showcasing the restaurant's offerings and atmosphere.
+- **Contact Information:** Offers readily available contact details and an embedded map for easy navigation.
+- **Online Ordering System:** Integrates directly with the restaurant’s Point-of-Sale system for streamlined order handling.
+- **Delivery Service Integration:** Includes support for major delivery platforms like UberEats and DoorDash.
+- **Multi-language Support:** Ensures the website is accessible to both Vietnamese and English-speaking customers.
 
 ## Project Overview
 
 ### Background
 
-Having observed the reliance of immigrant-owned businesses on traditional advertising methods, I initiated the development of a digital solution to complement and enhance the existing marketing strategies of my aunt's restaurant.
+Noticing the reliance of immigrant-owned businesses on conventional advertising, I spearheaded the development of this digital platform to supplement and enhance the existing marketing strategies of my aunt's restaurant.
 
 ### Goals
 
-The primary goal was to create a functional, visually appealing website that:
-- Improves the online visibility of Pho Voorhees.
-- Simplifies the ordering process for both customers and staff.
-- Adapts to the diverse linguistic needs of the restaurant's clientele.
+This project was driven by the objectives to:
+- Boost the online presence of Pho Voorhees.
+- Streamline the customer and staff ordering processes.
+- Cater to the linguistic diversity of the restaurant's clientele.
 
 ## Development Process
 
 ### Analysis
 
-I started by analyzing leading restaurant websites to identify industry standards and common pitfalls. This informed the strategic direction for the website's feature set and user interface.
+The development began with an in-depth analysis of top-tier restaurant websites to pinpoint industry norms and identify potential pitfalls. This research guided the design and functionality direction of the website.
 
 ### Implementation
 
-Key implementations include:
-- **Filtered Menu:** Developed using JavaScript and AJAX for real-time user interaction without page reloads.
-- **Font Support:** Selection of Unicode-compliant fonts to support Vietnamese characters, ensuring legibility and accessibility.
-- **Online Ordering System:** Integration with the existing POS system via APIs to automate the ordering cycle from online interface to kitchen.
+Implemented features include:
+- **Filtered Menu:** Developed with JavaScript and AJAX for dynamic user interaction without needing to reload the page.
+- **Font Support:** Selected Unicode-compliant fonts to support Vietnamese scripts, ensuring accessibility and readability.
+- **Online Ordering System:** Seamlessly connected to third-party systems for efficient order processing.
 
 ### Challenges
 
-One significant challenge was the real-time synchronization of the online orders with the on-site POS system, which required custom backend solutions to ensure reliability during peak hours.
+One ongoing challenge is maintaining the menu's accuracy, which involves scheduled annual updates and website maintenance to ensure the content remains current and reflective of the restaurant’s offerings.
 
 ## Conclusion
 
-The Pho Voorhees website has significantly impacted the restaurant’s operational efficiency and customer satisfaction. It serves as a testament to the power of digital solutions in modernizing traditional businesses.
+The development of the Pho Voorhees website has markedly improved the restaurant's operational efficiency and customer satisfaction. It demonstrates the impactful role that digital solutions play in modernizing traditional businesses.
 
-## Credits
+## Credits and Acknowledgments
 
-- **Developer:** [Your Name]
-- **Graphic Design:** High-definition images and branding elements were designed in collaboration with a professional photographer.
-- **Technical Stack:** HTML5, CSS3 (with a focus on responsive design), JavaScript, PHP, and integration with third-party APIs for delivery services.
-
-For more information or to discuss potential improvements, please reach out via the contact details on the website or directly through GitHub issues on this repository.
+- **Developer:** Victoria Hong
+- **Graphic Design:** Collaborated with Pho Voorhees for gallery.
+- **Technical Stack:** Utilized HTML5, CSS3, JavaScript, AJAX, and Bootstrap.
