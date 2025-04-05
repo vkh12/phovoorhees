@@ -69,7 +69,7 @@ The development began with an in-depth analysis of top-tier restaurant websites 
 ### Implementation
 
 Implemented features include:
-- **Filtered Menu:** Developed with JavaScript and AJAX for dynamic user interaction without needing to reload the page.
+- **Filtered Menu:** Developed with JavaScript for dynamic user interaction without needing to reload the page.
 - **Font Support:** Selected Unicode-compliant fonts to support Vietnamese scripts, ensuring accessibility and readability.
 - **Online Ordering System:** Seamlessly connected to third-party systems for efficient order processing.
 
@@ -124,4 +124,4 @@ The development of the Phở Voorhees website has markedly improved the restaura
 
 - **Developer:** Victoria Hong
 - **Graphic Design:** Collaborated with Phở Voorhees for gallery.
-- **Technical Stack:** Utilized HTML5, CSS3, JavaScript, AJAX, and Bootstrap.
+- **Technical Stack:** Utilized HTML5, CSS3, JavaScript, Bootstrap, and Google API.
